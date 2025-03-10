@@ -2,11 +2,11 @@
 
 This repository presents my process in applying KMeans clustering to a Spotify dataset of 5.000+ songs to create musically meaningful clusters of songs (=playlists) and eventually create actual playlists in Spotify.  My notebook in the “Script” folder shares every step taken in this project.  
 
-The primary question I sought to answer was: Can machine learning be an alternative to human-created playlists?
+The primary question I sought to answer was: **Can machine learning be an alternative to human-created playlists?**
 
 ### Situation
 
-The business case for this project is a small-scale startup, Moosic, which relies on experts to curate playlists for their customers.  Moosic is looking to scale up operations and is considering machine learning as an alternative to human-created playlists.  I am tasked with determining whether machine learning is a viable alternative. As a parameter, playlists created should be limited to 50-250 songs each.
+The business case for this project is a small-scale startup, Moosic, which relies on experts to curate playlists for their customers.  Moosic is looking to scale-up operations and is considering machine learning as an alternative to human-created playlists.  I am tasked with determining whether machine learning is a viable alternative. As a parameter, playlists created should be limited to 50-250 songs each.
 
 In my prototype I applied KMeans clustering using Quantile Transformer as my data scaler and comparing results from limiting features through the application of PCA. 
 
