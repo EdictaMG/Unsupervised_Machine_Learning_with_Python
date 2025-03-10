@@ -8,7 +8,7 @@ The primary question I sought to answer was: **Can machine learning be an altern
 
 The business case for this project is a small-scale startup, Moosic, which relies on experts to curate playlists for their customers.  Moosic is looking to scale-up operations and is considering machine learning as an alternative to human-created playlists.  I am tasked with determining whether machine learning is a viable alternative. As a parameter, playlists created should be limited to 50-250 songs each.
 
-In my prototype I applied KMeans clustering using Quantile Transformer as my data scaler and comparing results from limiting features through the application of PCA. 
+In my prototype I applied KMeans clustering using Quantile Transformer as my data scaler and compared results from limiting features through the application of PCA. 
 
 ### Conclusion
 Using the file shared in the “Documentation” folder, I present a prototype and the conclusion that machine learning through the application of KMeans clustering proves to be a promising alternative for Moosic’s scaling-up objectives but that further refinements and testings should be done for optimisation.
