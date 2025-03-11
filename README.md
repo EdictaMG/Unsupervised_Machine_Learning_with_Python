@@ -16,7 +16,7 @@ Using the file shared in the “Documentation” folder, I present a prototype a
 ## Files
 
 #### Data
-- 	3_spotify_5000_songs: dataset as csv file
+- 	spotify_5000_songs: dataset as csv file
 #### Script
 - 	KMeans_clustering_music_playlists_prototype: notebook for the project
 #### Documentation
@@ -24,8 +24,8 @@ Using the file shared in the “Documentation” folder, I present a prototype a
 
 ## Using the files
 
-- 	Simply run the notebook from start to finish to follow my process.  
-- 	Caveat: codes used to save csv files into Google Drive should be updated to reference user’s own Google Drive account (otherwise error code will ensue)
+- 	Save the dataset file into your own Google Drive (or locally, if you prefer).
+- 	Update links within the notebook to your own locations (this applies also to the code block on saving the music clusters as csv files and sending into Google Drive; the link should direct to the user's own own Google Drive account or other location otherwise an error code will ensue)
 - 	Enjoy the music playlist samples created and shared in the notebook!
   
 ## Languages and Libraries Used
