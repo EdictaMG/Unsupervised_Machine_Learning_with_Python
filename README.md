@@ -1,44 +1,48 @@
-# **Unsupervised Machine Learning with Python**
+# Unsupervised Machine Learning with Python
 
-This repository presents my process in applying KMeans clustering to a Spotify dataset of 5.000+ songs to create musically meaningful clusters of songs (=playlists) and eventually create actual playlists in Spotify.  My notebook in the “Script” folder shares every step taken in this project.  
+This repository showcases my process of applying **KMeans clustering** to a Spotify dataset of over 5,000 songs. The goal was to create musically meaningful clusters of songs (i.e., playlists) and ultimately generate actual playlists on Spotify. The notebook in the “Script” folder walks through every step of this project.
 
-The primary question I sought to answer was: **Can machine learning be an alternative to human-created playlists?**
+The main question I aimed to answer was: **Can machine learning replace human-curated playlists?**
 
-### Situation
+## Situation
 
-The business case for this project is a small-scale startup, Moosic, which relies on experts to curate playlists for their customers.  Moosic is looking to scale-up operations and is considering machine learning as an alternative to human-created playlists.  I am tasked with determining whether machine learning is a viable alternative. As a parameter, playlists created should be limited to 50-250 songs each.
+For this project, I worked with **Moosic**, a small-scale startup that relies on music experts to curate playlists for their customers. Moosic is exploring machine learning as a scalable alternative to human-created playlists. My task was to determine whether machine learning could effectively replace human expertise in playlist curation, with the added constraint that each playlist should contain between 50 and 250 songs.
 
-In my prototype I applied KMeans clustering using Quantile Transformer as my data scaler and compared results from limiting features through the application of PCA. 
+In the prototype, I applied **KMeans clustering**, using **Quantile Transformer** as the data scaler. I also compared the results from applying **Principal Component Analysis (PCA)** to limit the features.
 
-### Conclusion
-Using the file shared in the “Documentation” folder, I present a prototype and the conclusion that machine learning through the application of KMeans clustering proves to be a promising alternative for Moosic’s scaling-up objectives but that further refinements and testings should be done for optimisation.
+## Conclusion
+
+Based on the prototype, I concluded that machine learning using **KMeans clustering** is a promising alternative for Moosic's scaling goals. However, further refinements and testing are necessary for optimization.
 
 ## Files
 
-#### Data
-- 	spotify_5000_songs: dataset as csv file
-#### Script
-- 	KMeans_clustering_music_playlists_prototype: notebook for the project
-#### Documentation
-- 	Playlists_prototype_presentation: slides used for a 5 minute presentation on the prototype and whether or not machine learning is an alternative for creating playlists
+### Data
+- **spotify_5000_songs**: The dataset (in CSV format) containing over 5,000 songs from Spotify.
 
-## Using the files
+### Script
+- **KMeans_clustering_music_playlists_prototype**: The notebook that walks you through the entire project, including data preprocessing, clustering, and playlist creation.
 
-- 	Save the dataset file into your own Google Drive (or locally, if you prefer).
-- 	Update links within the notebook to your own locations (this applies also to the code block on saving the music clusters as csv files and sending into Google Drive; the link should direct to the user's own own Google Drive account or other location otherwise an error code will ensue)
-- 	Enjoy the music playlist samples created and shared in the notebook!
-  
+### Documentation
+- **Playlists_prototype_presentation**: A slide deck used for a 5-minute presentation, summarizing the prototype and evaluating whether machine learning is a viable alternative for creating playlists.
+
+## Using the Files
+
+1. Save the **spotify_5000_songs** dataset to your **Google Drive** or locally.
+2. Update the file links within the notebook to point to the location of your saved dataset.
+   - If you're using Google Drive, ensure the links point to the correct file location. This also applies to the code blocks responsible for saving music clusters as CSV files and uploading them to Google Drive. Incorrect links may cause errors.
+3. Enjoy exploring the music playlist samples created and shared in the notebook!
+
 ## Languages and Libraries Used
 
-- 	Python (3.12.4)
-- 	Pandas (2.2.2)
-- 	Numpy (1.26.4)
-- 	Matplotlib (3.8.4)
-- 	Seaborn (0.13.2)
-- 	Plotly (5.22.0)
-- 	SKLearn (1.4.2)
+- **Python** (3.12.4)
+- **Pandas** (2.2.2)
+- **Numpy** (1.26.4)
+- **Matplotlib** (3.8.4)
+- **Seaborn** (0.13.2)
+- **Plotly** (5.22.0)
+- **SKLearn** (1.4.2)
 
-## Tools used
+## Tools Used
 
-- Google Colab for notebook
-- Google Drive
+- **Google Colab**: Used for running the notebook.
+- **Google Drive**: Used to store data and save output files.
